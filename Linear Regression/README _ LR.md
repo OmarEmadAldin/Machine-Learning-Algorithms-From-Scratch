@@ -15,7 +15,7 @@ A simple implementation of Linear Regression using gradient descent, built with 
 
 1. **Initialize** weights and bias to zero
 2. **Forward pass** — compute predictions: `y = X·w + b`
-3. **Compute gradients** of MSE loss with respect to weights and bias
+3. **Compute gradients** of MSE loss with respect to weights and bias or we can use MAE loss
 4. **Update** weights and bias using gradient descent
 5. Repeat for `n_iters` iterations
 
