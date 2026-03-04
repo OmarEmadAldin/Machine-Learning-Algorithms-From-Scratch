@@ -1,0 +1,4 @@
+import numpy as np
+def mean_square_error(y_true, y_pred):
+    mse = np.mean((y_true - y_pred) ** 2)
+    return mse

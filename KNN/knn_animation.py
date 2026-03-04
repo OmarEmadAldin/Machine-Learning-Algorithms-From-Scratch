@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
-from matplotlib.animation import FuncAnimation
+from matplotlib.animation import FuncAnimation, PillowWriter
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from collections import Counter
@@ -204,6 +204,11 @@ def update(frame):
 
 anim = FuncAnimation(fig, update, frames=FRAMES,
                      interval=300, blit=False, repeat=False)
+
+# ── Save as GIF ───────────────────────────────────────────────────────────────
+writer = PillowWriter(fps=10)
+anim.save("Knn_Animation.gif", writer=writer, dpi=100)
+print('Saved!')
 
 plt.tight_layout()
 plt.show()

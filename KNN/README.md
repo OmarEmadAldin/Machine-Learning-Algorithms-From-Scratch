@@ -55,12 +55,6 @@ Tested on the Iris dataset with an 80/20 train-test split:
 ```
 Accuracy: ~0.97
 ```
-
-## Project Structure
-
-```
-├── Knn.py
-├── helper_function.py
-├── main.py
-└── knn_animation.py
-```
+<p align="center">
+  <img src="Knn_Animation.gif" width="700" />
+</p>
