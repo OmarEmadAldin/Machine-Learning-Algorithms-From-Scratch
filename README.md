@@ -1,2 +1,12 @@
 # Machine-Learning-Algorithms-From-Scratch
-It will have bunch on machine learning algorithms build from scratch not build in functions. and we will compare both of two implementations for the sake of learning it better
+This repo contains ML algorithms from scratch.
+1- Linear Regression
+2- Logistic Regression
+3- KNN
+4- KMeans
+5- preceptron
+6- SVM
+7- Decision Tree
+8- Random Forest
+9- Naive Bayes
+10 - PCA
