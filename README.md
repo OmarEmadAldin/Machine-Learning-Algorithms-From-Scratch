@@ -9,7 +9,7 @@ This repo contains ML algorithms from scratch.\
 7- Decision Tree \
 8- Random Forest \
 9- Naive Bayes \
-10 - PCA \
+10 - PCA 
 ## Results
 <p align="center">
 <img src="ml_algorithms_grid.gif" width="1000" />
