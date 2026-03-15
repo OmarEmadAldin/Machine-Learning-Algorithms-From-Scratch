@@ -12,6 +12,6 @@ This repo contains ML algorithms from scratch.\
 10 - PCA 
 ## Results
 <p align="center">
-<img src="ml_algorithms_grid.gif" width="1000" />
+<img src="ml_algorithms_grid.gif" width="700" />
 </p>
 
